@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (local)
+data/local/
+data/personal/
+*.csv
+*.xlsx
+*.parquet
+
+# Configuration files with personal info
+config/personal_config.yaml
+config/local_settings.json
+settings/user_*.json
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Personal paths and user-specific files
+**/Users/*/
+user_paths.sh
+personal_setup.sh
+
+# Exclude pension scenarios
+examples/pension_w_term_life_scenarios/
+
+# Setup scripts
+setup_tail_hedge.sh
+setup_tail_hedge_simulation.sh
+uv_commands.py
+
+# PDF files in assets
+assets/*.pdf
+assets/local_pdfs/

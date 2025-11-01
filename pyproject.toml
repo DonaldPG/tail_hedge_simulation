@@ -1,0 +1,18 @@
+[project]
+name = "tail_headge_sim"
+version = "0.1.0"
+description = "Tail hedge risk simulation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+    "scipy>=1.15.1",
+    "pypdf>=4.0.0",
+    "reportlab>=4.0.0",
+    "pyyaml",
+    "yfinance>=0.2.38",
+    "arch>=6.3.0",
+    "openpyxl>=3.1.5",
+    "tabulate>=0.9.0",
+]
